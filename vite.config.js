@@ -10,7 +10,7 @@ export default defineConfig({
     environment: 'jsdom',
   },
   build: {
-    outDir: 'docs', // Define a pasta de saída para o build
+    outDir: 'build', // Define a pasta de saída para o build
     emptyOutDir: true,
     rollupOptions: {
       input: resolve(__dirname, 'index.html'), // Define o arquivo de entrada
