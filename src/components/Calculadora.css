@@ -1,0 +1,82 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px; /* Ajuste a largura conforme necessário */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .display {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex; /* Ativa flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: right;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #eee; /* Cor de fundo dos botões */
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  button:active {
+    background-color: #ccc;
+    transform: translateY(2px);
+  }
+  
+  /* Estilos adicionais para a aparência de calculadora */
+  .buttons button:nth-child(15) { /* Botão "=" */
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .buttons button:nth-child(15):hover {
+    background-color: #45a049;
+  }
+  
+  .buttons button:nth-child(15):active {
+    background-color: #3e8e41;
+  }
+    
+  .clear {
+    grid-column: span 4;
+    background-color: #ff6666; /* Cor do botão "C" */
+    color: white;
+  }
+  
+  .buttons button:nth-child(17):hover {
+    background-color: #bd4639;
+  }
+  
+  .buttons button:nth-child(17):active {
+    background-color: #c63c34;
+  }

@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex; /* Ativa flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Faz o App ocupar toda a altura da tela */
 }
 
 .App-logo {
