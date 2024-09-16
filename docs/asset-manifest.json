@@ -1,0 +1,10 @@
+{
+    "files": {
+      "index.js": "/docs/assets/index-4578a75b.js",
+      "index.html": "/docs/index.html",
+      "index.css": "/docs/assets/index-a1f99cd6.css"
+    },
+    "entrypoints": [
+      "docs/assets/index-4578a75b.js"
+    ]
+  }
