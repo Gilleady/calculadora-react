@@ -16,5 +16,5 @@ export default defineConfig({
       input: resolve(__dirname, 'index.html'), // Define o arquivo de entrada
     }
   },
-  base: '/calculadora-react/'
+  base: '/calculadora-react/docs/'
 })
